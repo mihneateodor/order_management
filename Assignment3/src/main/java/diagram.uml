@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="557.6938447444287" y="277.39114220316884">dao.ProdusDAO</node>
+    <node x="533.3326963083244" y="141.55573173407174">model.Produs</node>
+    <node x="0.0" y="202.18230979688775">dao.ComandaDAO2</node>
+    <node x="881.1678246004217" y="821.9121018432459">view.StartView</node>
+    <node x="15.133213996244308" y="354.01452724085397">model.Comanda</node>
+    <node x="511.75400998064754" y="427.14315757785675">dao.ComandaDAO</node>
+    <node x="407.91491105176226" y="529.7695833825968">model.Persoana</node>
+    <node x="786.1228554454901" y="599.4064358995543">view.ComandaView</node>
+    <node x="930.3934078039376" y="530.1664661659827">view.PersoanaView</node>
+    <node x="91.6259707232989" y="62.91033842573387">dao.AbstractDAO</node>
+    <node x="1060.0521861470586" y="634.6448039739269">controller.Controller</node>
+    <node x="416.2517062505071" y="38.46538548936957">dao.ProdusDAO2</node>
+    <node x="803.5016977932081" y="736.0214318665398">start.Main</node>
+    <node x="75.34709808424213" y="489.30344032226685">connection.ConnectionSql</node>
+    <node x="1022.6139741823189" y="783.7354579149996">view.ProdusView</node>
+    <node x="246.03019319478523" y="0.0">dao.PersoanaDAO2</node>
+    <node x="0.0" y="896.9121018432459">dao.ReflectionClass</node>
+    <node x="243.09013235788618" y="558.710371091523">dao.PersoanaDAO</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="dao.ComandaDAO" target="dao.ProdusDAO2">
+      <point x="-4.855573320636296" y="1.1930665228414625" />
+      <point x="-4.855573320636296" y="1.1930665228414625" />
+    </edge>
+    <edge source="dao.ProdusDAO2" target="dao.AbstractDAO">
+      <point x="0.0" y="-4.513059737011076" />
+      <point x="0.0" y="-4.513059737011048" />
+    </edge>
+    <edge source="start.Main" target="view.PersoanaView">
+      <point x="-3.9580806682079697" y="-3.0550936849724053" />
+      <point x="-3.9580806682080265" y="-3.055093684972377" />
+    </edge>
+    <edge source="dao.ComandaDAO" target="dao.PersoanaDAO2">
+      <point x="-4.281093408969468" y="2.5830677930859736" />
+      <point x="-4.281093408969479" y="2.583067793086002" />
+    </edge>
+    <edge source="dao.ComandaDAO" target="dao.ProdusDAO">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="dao.PersoanaDAO2" target="dao.AbstractDAO">
+      <point x="1.8455332957581625" y="4.646935210894185" />
+      <point x="1.8455332957581732" y="4.646935210894156" />
+    </edge>
+    <edge source="start.Main" target="controller.Controller">
+      <point x="-1.5292905579289027" y="-4.232170883769868" />
+      <point x="-1.5292905579289027" y="-4.232170883769868" />
+    </edge>
+    <edge source="dao.PersoanaDAO2" target="model.Persoana">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="dao.ProdusDAO2" target="model.Produs">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="dao.ProdusDAO" target="model.Produs">
+      <point x="-4.829947579874556" y="1.2929061743467525" />
+      <point x="-4.829947579874556" y="1.29290617434674" />
+    </edge>
+    <edge source="dao.PersoanaDAO" target="connection.ConnectionSql">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="dao.ComandaDAO2" target="dao.AbstractDAO">
+      <point x="5.98502799211866" y="0.0" />
+      <point x="5.98502799211866" y="0.0" />
+    </edge>
+    <edge source="dao.AbstractDAO" target="connection.ConnectionSql">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="dao.ProdusDAO" target="connection.ConnectionSql">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.Controller" target="view.StartView">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="dao.ComandaDAO2" target="model.Comanda">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="dao.ComandaDAO" target="model.Persoana">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.Controller" target="view.ProdusView">
+      <point x="4.849442850059745" y="1.2177454758712543" />
+      <point x="4.849442850059745" y="1.2177454758712543" />
+    </edge>
+    <edge source="controller.Controller" target="view.PersoanaView">
+      <point x="-3.25753912772916" y="3.793209568599309" />
+      <point x="-3.25753912772916" y="3.7932095685993374" />
+    </edge>
+    <edge source="dao.ComandaDAO" target="view.ComandaView">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="start.Main" target="view.ProdusView">
+      <point x="0.8666513183010238" y="-4.415757635161526" />
+      <point x="0.8666513183010238" y="-4.415757635161526" />
+    </edge>
+    <edge source="dao.ComandaDAO" target="model.Produs">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="start.Main" target="view.StartView">
+      <point x="3.3019363944854376" y="-3.7546259529775625" />
+      <point x="3.3019363944854376" y="-3.7546259529775625" />
+    </edge>
+    <edge source="dao.ProdusDAO" target="dao.PersoanaDAO">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="dao.ComandaDAO" target="model.Comanda">
+      <point x="-0.64041677222977" y="4.454196488464191" />
+      <point x="-0.6404167722297984" y="4.454196488464191" />
+    </edge>
+    <edge source="dao.PersoanaDAO" target="model.Persoana">
+      <point x="-0.8372943460592097" y="-4.421418118438623" />
+      <point x="-0.8372943460592097" y="-4.421418118438623" />
+    </edge>
+    <edge source="dao.ComandaDAO" target="connection.ConnectionSql">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.Controller" target="view.ComandaView">
+      <point x="-0.5825171130900344" y="4.4621378074816676" />
+      <point x="-0.5825171130900344" y="4.4621378074816676" />
+    </edge>
+    <edge source="start.Main" target="view.ComandaView">
+      <point x="-4.984957374408964" y="-0.387556415668314" />
+      <point x="-4.984957374408964" y="-0.387556415668314" />
+    </edge>
+  </edges>
+  <settings layout="Circular" zoom="0.7000000000000001" x="483.5138888888888" y="390.97222222222223" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

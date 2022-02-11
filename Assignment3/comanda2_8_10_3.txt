@@ -1,0 +1,3 @@
+Detalii factura:
+Comanda cu numarul <2>
+Clientul numarul <8> cu numele <Teodor Vlad> a achizitionat produsul <10> cu numele <Playstation 5> in cantitate de <3> unitati.

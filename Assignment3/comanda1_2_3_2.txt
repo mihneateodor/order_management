@@ -1,0 +1,3 @@
+Detalii factura:
+Comanda cu numarul <1>
+Clientul numarul <2> cu numele <George Andrei> a achizitionat produsul <3> cu numele <Samsung Galaxy Note 20> in cantitate de <2> unitati.

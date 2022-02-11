@@ -1,0 +1,3 @@
+Detalii factura:
+Comanda cu numarul <3>
+Clientul numarul <4> cu numele <Valentin Sorin> a achizitionat produsul <5> cu numele <Televizor LED Smart SAMSUNG 1234AA> in cantitate de <3> unitati.
